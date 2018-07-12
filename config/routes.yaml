@@ -1,3 +1,8 @@
 index:
     path: /post
     controller: App\Controller\PostController::renderForm
+
+privacy_page:
+    path: /privacy
+    controller: App\Controller\PorivacyController::renderPrivacyTemplate
+
