@@ -6,8 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class PostController extends AbstractController
 {
-    public function renterForm()
+    public function renderForm()
     {
-        return $this->render('post/post,html.twig');
+        return $this->render('post/post.html.twig');
     }
 }
