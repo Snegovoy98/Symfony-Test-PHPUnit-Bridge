@@ -125,6 +125,7 @@
                         <select class="custom-select d-block w-100" id="country" name="Country" required>
                             <option value="">Choose...</option>
                             <option>United States</option>
+                            <option>New York</option>
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid country.
@@ -150,7 +151,7 @@
                 </div>
                 <hr class="mb-4">
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <input type="checkbox" class="custom-control-input" id="same-address" name="same-address">
                     <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
                 </div>
                 <div class="custom-control custom-checkbox">
@@ -217,7 +218,7 @@
     <footer class="my-5 pt-5 text-muted text-center text-small">
         <p class="mb-1">&copy; 2017-2018 Company Name</p>
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="{{ path('privacy_page') }}">Privacy</a></li>
+            <li class="list-inline-item"><a href="{{ path('privacy_page') }}" name="privacy">Privacy</a></li>
             <li class="list-inline-item"><a href="#">Terms</a></li>
             <li class="list-inline-item"><a href="#">Support</a></li>
         </ul>
