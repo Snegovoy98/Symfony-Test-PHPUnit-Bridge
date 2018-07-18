@@ -1,8 +1,8 @@
 index:
-    path: /post
-    controller: App\Controller\PostController::renderForm
+    path: /registration
+    controller: App\Controller\RegistrationController::registration
 
 privacy_page:
     path: /privacy
-    controller: App\Controller\PorivacyController::renderPrivacyTemplate
+    controller: App\Controller\PorivacyController::privacyTemplate
 
