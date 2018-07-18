@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class PrivacyController extends AbstractController
 {
-    public function PrivacyTemplate()
+    public function privacyTemplate()
     {
         return $this->render('privacy/privacy.html.twig');
     }
